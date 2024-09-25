@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    background-color: #212529; 
+}
+
+
+header {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px; 
+    color: #f1f5f9; 
+}
+
+h1 {
+    font-size: 75px;
+    text-align: center; 
+    flex: 1; 
+}
+
+label {
+    display: block;
+    margin: 10px;
+    padding: 5px 0;
+    color: #f1f5f9; 
+    font-size: 30px; 
+}
+
+
+main {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    height: 80vh; 
+}
+
+div {
+    display: flex; 
+    margin: 10px 0; 
+}
+
+button {
+    border: solid 6px #4dff91; 
+    padding: 20px; 
+    margin: 5px; 
+    width: 150px; 
+    height: 150px; 
+    text-align: center; 
+    display: inline-block;
+    align-items: center;
+    border-radius: 20px; 
+    font-size: 24px; 
+    color: #f1f5f9; 
+    background-color: #343a40; 
+    transition: background-color 0.3s, transform 0.2s; 
+}
+
+button:hover {
+    background-color: #9ce0b6; 
+    transform: scale(1.1); 
+}
+
+.selected{
+    background-color: #60ec96;
+    color: #08090a;
+}
+
+.notselected{
+    background-color: #343a40;
+    color: #f1f5f9;
+}
+
+.winnerBackground{
+    background-color: #60ec96;
+    color: #08090a;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    border: solid 10px black;
+    border-radius: 10px;
+    width: 65rem;
+    height: 40rem;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    position: fixed; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    z-index: 1000; 
+    margin-top: 5rem;
+}
+
+.winnerBackground button {
+    border: solid 6px #003d17; 
+    padding: 20px; 
+    margin: 5px; 
+    width: 150px;
+    height: 150px; 
+    text-align: center; 
+    display: inline-block;
+    align-items: center;
+    border-radius: 20px; 
+    font-size: 24px; 
+    color: #f1f5f9; 
+    background-color: #212529; 
+    transition: background-color 0.3s, transform 0.2s; 
+}
+
+.winnerBackground button:hover {
+    background-color: #60ec96; 
+    transform: scale(1.1);
+}
+
+.alinhar{
+    background-color: #60ec96;
+    align-items: center;
+    text-align: center;
+    display: block;
+}
